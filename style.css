@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #15133c;
+    color: #5fc5ba;
+    text-transform: uppercase;
+}
+
+.header{
+    text-align: center;
+    min-height: 140px;
+}
+
+.main-container{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    text-align: center;
+}
+
+span{
+    color: #fff;
+}
+
+.mid img{
+    width: 350px;
+    align-self: center;
+}
+
+button{
+      background-color: #0097c5;
+      color: #fff;
+      border-radius: 10%;
+      border: 2px solid #fff;
+      padding: 15px 32px;
+      margin: 10px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block;
+      font-weight: 600;
+      font-size: 16px;
+}
